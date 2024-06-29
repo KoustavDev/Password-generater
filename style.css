@@ -1,0 +1,134 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 450px;
+    text-align: center;
+
+    background: #958cbb;
+
+}
+
+.container p {
+
+    font-weight: 600;
+    font-size: 1.31rem;
+
+    padding: 1rem 1.75rem;
+    border-bottom: 1px solid #858bb2;
+
+}
+
+.wrapper {
+    margin: 1.25rem 1.25rem 0 1.25rem;
+}
+
+.wrapper .input-box {
+    position: relative;
+
+}
+
+.input-box input {
+
+    width: 83%;
+    height: 53px;
+
+    color: #fff;
+    background: #858bb2;
+
+    font-size: 1.06rem;
+    font-weight: 500;
+
+    border-radius: 4px;
+    letter-spacing: 1.4px;
+
+    border: 1px solid #000;
+    border-radius: 1rem;
+
+    padding: 0 2.85rem 0 1rem;
+
+}
+
+.input-box span {
+    position: absolute;
+    right: 13px;
+    cursor: pointer;
+    line-height: 53px;
+    color: #000;
+}
+
+.input-box span:hover {
+    color: #ffffff !important;
+}
+
+.title{
+    font-weight: 600;
+    font-size: large;
+}
+
+.wrapper .pass-settings {
+    margin: 1.56rem 0 1.25rem;
+}
+
+.pass-settings .options {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.pass-settings .options .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: calc(100% / 2);
+}
+
+.options .option:first-child input {
+    opacity: 0.7;
+}
+
+.options .option input {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+
+.options .option label {
+    cursor: pointer;
+
+    color: #000;
+    padding-left: 0.63rem;
+
+}
+
+.pass-settings input[type="checkbox"] {
+    accent-color: #46496e;
+}
+
+.generate-btn {
+    width: 100%;
+
+    color: #fff;
+    border: none;
+
+    outline: none;
+    cursor: pointer;
+
+    background: #46496e;
+    font-size: 1.06rem;
+
+    padding: 0.94rem 0;
+    border-radius: 1rem;
+
+    text-transform: uppercase;
+    margin: 0.94rem 0 1.3rem;
+
+}
+
+.wrapper .generate-btn:hover {
+    background: #46495e;
+
+}
